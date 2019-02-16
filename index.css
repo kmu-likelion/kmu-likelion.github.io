@@ -71,3 +71,32 @@ a:hover{
 #kmuf:hover{
     background-image: url('archive/3_whatwemade/kmuf_on.png')
 }
+
+
+.schedule {
+    text-align: center;
+    padding: 100px 10px 200px 10px;
+
+}
+
+.footer {
+    border-top:solid;
+    border-width:60px;
+    border-color:#FDD7AB;
+    padding-top: 100px;
+}
+
+
+.left-footer{
+    text-align: center;
+    border-right:solid;
+    border-color:#f38014;
+    border-width:1.5px;
+}
+
+.right-footer{
+    width: 200px;
+    height: auto;
+
+
+}
