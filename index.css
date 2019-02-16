@@ -1,3 +1,10 @@
+a{
+    color:#f38014;
+}
+a:hover{
+    color:#f38014;
+}
+
 .main_image{
     width : 100%;
 }
@@ -5,4 +12,63 @@
 .hackyourlife{
     padding-top: 10%;
     text-align: center;
+}
+.description{
+    line-height: 35px;
+    font-size:20px;
+    font-family: 
+}
+.nanumsquare { font-family: 'NanumSquare', sans-serif !important; }
+
+
+.staff{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.staff-frame{
+
+    width:100%;
+}
+
+.service div{
+    text-align: center;
+}
+.service_img{
+    padding:0px;
+    margin:auto;
+}
+
+#noonnu{
+    background-image: url('archive/3_whatwemade/noonnu.png');
+    min-width : 200px;
+    min-height:200px;
+    background-repeat: no-repeat;
+}
+
+#noonnu:hover{
+    background-image: url('archive/3_whatwemade/noonnu_on.png')
+    
+}
+
+#simpyo{
+    background-image: url('archive/3_whatwemade/right.png');
+    min-width : 200px;
+    min-height:200px;
+    background-repeat: no-repeat;
+    
+}
+
+#simpyo:hover{
+    background-image: url('archive/3_whatwemade/right_on.png')
+    
+}
+#kmuf{
+    background-image: url('archive/3_whatwemade/kmuf.png');
+    min-width : 200px;
+    min-height:200px;
+    background-repeat: no-repeat;
+}
+
+#kmuf:hover{
+    background-image: url('archive/3_whatwemade/kmuf_on.png')
 }
