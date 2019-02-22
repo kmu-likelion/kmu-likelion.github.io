@@ -31,45 +31,48 @@ a:hover{
 
 .service div{
     text-align: center;
+    padding-left:40px;
+    
 }
 .service_img{
-    padding:0px;
     margin:auto;
 }
 
 #noonnu{
-    background-image: url('archive/3_whatwemade/noonnu.png');
-    min-width : 200px;
-    min-height:200px;
+    background-image: url('archive/3_whatwemade/1noonnu.png');
+    min-width :200px;
+    min-height: 200px;
     background-repeat: no-repeat;
+    
 }
 
 #noonnu:hover{
-    background-image: url('archive/3_whatwemade/noonnu_on.png')
-    
-}
+    background-image: url('archive/3_whatwemade/1noonnu_on.png')
+}   
 
 #simpyo{
-    background-image: url('archive/3_whatwemade/right.png');
+    background-image: url('archive/3_whatwemade/1right.png');
     min-width : 200px;
-    min-height:200px;
+    min-height: 200px;
     background-repeat: no-repeat;
-    
+
 }
 
 #simpyo:hover{
-    background-image: url('archive/3_whatwemade/right_on.png')
+    background-image: url('archive/3_whatwemade/1right_on.png')
     
 }
+
 #kmuf{
-    background-image: url('archive/3_whatwemade/kmuf.png');
+    background-image: url('archive/3_whatwemade/1kmuf.png');
     min-width : 200px;
-    min-height:200px;
+    min-height: 200px;
     background-repeat: no-repeat;
+    
 }
 
 #kmuf:hover{
-    background-image: url('archive/3_whatwemade/kmuf_on.png')
+    background-image: url('archive/3_whatwemade/1kmuf_on.png')
 }
 
 
@@ -81,9 +84,10 @@ a:hover{
 
 .footer {
     border-top:solid;
-    border-width:60px;
+    border-width:40px;
     border-color:#FDD7AB;
-    padding-top: 100px;
+    padding-top: 80px;
+    
 }
 
 
@@ -91,16 +95,26 @@ a:hover{
     text-align: center;
     border-right:solid;
     border-color:#f38014;
-    border-width:1.5px;
+    border-width:1px;
+    height: 93px;
+    font-size: 15px;
+    color: #f38104;
+
 }
+    
+
 
 .right-footer{
-    width: 200px;
-    height: auto;
-
-
+    font-size: 14px;
+    color: #f38104;
+    line-height:13px;
 }
 
-.title{
-    color: #f38104;
+
+
+.montserrat { 
+    font-family: 'Montserrat', sans-serif !important; 
+    color: #FBA643;
+    font-weight: bolder;
+    font-size: 25px;
 }
