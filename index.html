@@ -1,144 +1,117 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>LikeLion at KMU</title>
-    <!-- font -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="demo.css">
+ 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap" rel="stylesheet">  
+    <title>Document</title>
+     
 </head>
+
+<header>
+    <a href="http://kmu.likelion.org/"><img src="image/logo0.png" alt="logo"  width="370" height="auto"
+        onmouseover="this.src='image/logo1-2.png'" onmouseout="this.src='image/logo0.png'"></a>
+        <div style="overflow: hidden;">
+        <nav>
+            <ul>
+            <a href="#hackyourlife"><li><span>소개</span></li></a>
+            <a href="#service"><li><span>서비스이력</span></li></a>
+            <a href="#schedule"><li><span>일정</span></li></a>
+            <a href="https://www.notion.so/kmulikelion/5f84217440604917b149e98e241c0c69" target="_blank"><li><span>9기</span></li></a>
+            </ul>
+        </nav></div>
+
+</header>
+
 
 <body>
 
-    <!--네비바-->
-    <nav class="navbar navbar-expand-lg">
-        <div>
-            <a class="" href="#">
-                <img src="archive/0_main/barlogo.png">
-            </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+<!-- 멋사 소개랑 이미지 -->
+<div style="position: relative;" id="top">
+<video width="80%" height="auto" autoplay loop muted>
+    <source src="image/1.mp4" type="video/mp4">
+</video>
+    <div class="p_on_img fade">
+        <h2><strong>HACK YOUR LIFE,</strong><br>
+        프로그래밍으로 당신의 인생을 바꿔보세요.</h2>
+    </div>
+</div>
+<h2 class="leftmargin" style="padding-top: 30px;" id="hackyourlife"><span style="color: #ff921b;">W</span>E ARE</h2>
+<p class="fade center" style="margin-top:10px;">
+    <strong>멋쟁이 사자처럼 at 국민대학교</strong>는<br>
+    온라인 강의와 오프라인 활동을 통한 체계적인 프로그래밍 교육 동아리이며,<br>
+    자신만의 서비스를 만들고 싶은 국민대학생이라면 누구나 지원 가능합니다.
+</p>
+    
 
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link nanumsquare" href="#hackyourlife">KMU 멋사</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nanumsquare" href="#staff">운영진</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nanumsquare" href="#service">서비스 이력</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nanumsquare" href="#schedule">일정</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--네비바 끝-->
 
-    <img src="archive/0_main/original.jpeg" class="main_image">
+<!-- 서비스이력 -->
+<div id="service" class="leftmargin topmargin">
+<h2><span style="color: #ff921b;">W</span>HAT WE MADE</h2>
 
+
+<div class="serviceboxparent center" style="position: relative;">
+
+<div class="servicebox">
+    <div class="text">눈누</div>
+    <a href="https://noonnu.cc/"target="_blank"><img class="serviceimg" src="image/noonnu.png" width="130px"></a>
+</div>
+<div class="servicebox">
+    <div class="text" style="font-size: 18px;">멋사오버플로우</div>
+    <a href=""target="_blank"><img class="serviceimg" src="image/overflow.png" width="130px"></a>
+</div>
+<div class="servicebox">
+    <div class="text">아이디어톤</div>
+    <a href="https://www.notion.so/kmulikelion8th/78918fc1ed91415d911514e64a86730d" target="_blank"><img class="serviceimg" src="image/idea.png" width="130px"></a>
+</div>
+</div>
+</div>
+
+
+<!-- 스케줄 -->
+<div id="schedule" class="leftmargin topmargin">
+    <h2><span style="color: #ff921b;">S</span>CHEDULE</h2>
+    <img src="image/schedule.png" width="70%;" style="display:block; margin:0 auto;">
+</div>
+    
+
+
+<footer class="footer-07">
     <div class="container">
-        <!-- 멋사-->
-        <div class="hackyourlife" id="hackyourlife">
-            <img src="archive/1_hackyourlife/hackyourlife.png" width="50%">
-            <br>
-            <br>
-
-            <p class="description nanumsquare">
-                <strong>멋쟁이 사자처럼 at 국민대학교</strong> 에서는
-                <br>
-                온라인 강의와 오프라인 활동을 통한 체계적인 프로그래밍 교육을 통하여
-                <br>
-                자신만의 서비스를 만들고 싶은 국민대학생이라면 누구나 지원 가능합니다!</p>
-            <br>
-            <p>
-
-            </p>
+        <div class="row justify-content-center" style="padding:0px;">
+            <div class="col-md-12 text-center">
+                <h2 class="footer-heading"><a href="#top">LIKELION at KookminUniv</a></h2>
+                    <a href="https://www.likelion.net/"target="_blank"><img width="60px" src="image/lion_logo.png"></a>
+                    <a href="https://www.facebook.com/LikeLionKookmin/"target="_blank"><img width="60px" src="image/facebooklogo.png"></a>
+                    <a href="https://www.instagram.com/likelion_kmu/"target="_blank"><img width="62px" src="image/instalogo.png"></a>
+                    <a href="https://www.notion.so/kmulikelion/9-23ba7d0d33014c3a90f430db96527bf5"target="_blank"><img width="60px" src="image/notionlogo.png"></a>
+               
+            </div>
         </div>
-        <!-- 운영진  -->
-        <br><br>
-        <div class="staff" id="staff">
-            <!-- https://ironsky.tistory.com/46 -->
-            <img src="archive/test.png" class="staff-frame" alt="" style="width:100%;">
+            <div class="col-md-12 text-center" style="margin-top: 5px;">
+                <p class="copyright">
+                    20707 서울특별시 성북구 정릉로 77 국민대학교<br>
+                    Email | kmu@likelion.org
+                </p>
+            </div>
+      
+        
+            <div class="col-md-12 text-center" style="font-size: 10px; margin-bottom: 20px;">
+                <p class="copyright" style="color:#ff921b;">
+              Copyright &copy;2021 KOOKMIN-LIKELION All rights reserved </p>
+            </div>
+        
+    </div>
+</footer>
 
-        </div>
-        <br><br>
-         <!-- 서비스 이력  -->
-         <strong><h2 class="montserrat " id="service">WHAT WE MADE</h2></strong>
-         <br>
-         <br>
-         <div class="service">
-             <div class="row">
-                 <!-- 눈누 -->
-                 <span class="col-lg-3 col-sm-3 service_img " id="noonnu" >
- 
-                 </span>
-                 <!-- 쉼표 -->
-                 <span class="col-lg-3 col-sm-3 service_img" id="simpyo" >
- 
-                 </span>
-                 <!-- 국민대 축제 -->
-                 <span class="col-lg-3 col-sm-3 service_img" id="kmuf" >
- 
-                 </span>
-             </div>
-         </div>
-         <br>
-         <br>
-         <br>
- 
-         <!-- 일정  -->
-         <strong><h2 class="montserrat" >SCHEDULE</h2></strong>
-         <div class="schedule" id="schedule">
-             <img src="archive/4_schedule/schedule.png" width="100%">
-         </div>
-     </div>
- 
- 
-     <!-- footer -->
-     <footer class="footer">
-         <div class="container">
-             <div class="row">
-                 <div class="col-sm-3 ">
-                 </div>
-                 <div class="col-sm-2 left-footer nanumsquare">
-                     <span style="font-weight:1000;"><p>CONTACT</p></span>
-                     
-                     <a href="https://likelion.net/"><img src="archive/5_footer/lion_logo.png" alt="lion로고"style="width: 40%; padding: 5px;"></a>
-                     <a href="https://www.facebook.com/LikeLionKookmin/"><img src="archive/5_footer/facebook_logo.png" alt="페북로고" style="width: 40%; padding: 5px; "></a>  
-                 </div>
-                 <div class="col-sm-7 right-footer nanumsquare" style="width:100%">
-                     <p>20707 서울특별시 성북구 정릉로 77 국민대학교</p>
-                     <br>
-                     <p>Email kmu@likelion.org</p>
-                     <p>COPYRIGHT © 2019 KOOKMIN-LIKELION.</p>
-                     <p>ALL RIGHTS RESERVED</p>
-                 </div>
-             </div>
-         </div>
-         <br>
-         <br>
-     </footer>
- </body>
- 
- </html>
+
+</body>
+</html>
