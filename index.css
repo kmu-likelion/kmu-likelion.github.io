@@ -1,120 +1,252 @@
-a{
-    color:#f38014;
-}
-a:hover{
-    color:#f38014;
+
+html {
+    scroll-behavior: smooth;
 }
 
-.main_image{
-    width : 100%;
+/* html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+.oragngetext {
+  color: #ff921b;
 }
 
-.hackyourlife{
-    padding-top: 10%;
-    text-align: center;
-}
-.description{
-    line-height: 35px;
-    font-size:20px;
-    font-family: 
-}
-.nanumsquare { font-family: 'NanumSquare', sans-serif !important; }
-
-
-.staff{
-    margin-top:20px;
-    margin-bottom: 20px;
-}
-.staff-frame{
-    width:100%;
+body{
+    color:white;
+    padding-top: 5px;
+    background-color:black; font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden;
 }
 
-.service div{
-    text-align: center;
-    padding-left:40px;
+header {
+    overflow: hidden;
+	width:98%;
+	height:65px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* header > img {
+	margin-left: 50px;
+} */
+
+header > nav {
+	width:40%;
+	height:100%;
+}
+
+
+ul { 
+    list-style:none;
+    cursor:pointer;
+    color:white;
+    padding: 0;
+    text-align: right;
+    margin-left: auto;
+    /* width:100%; */
+	/* height: 100%; */
+	/* display: flex; */
+	padding-right: 0;
+    /* font-size: 0; */
+    float: right;
+    /* position: fixed; */
+}
+
+li { 
+  margin-left: 30px;
+  float:left;
+  transition:all .3s ease;
+  /* padding-right : 0; */
+  padding: 0;
+  /* font-size: 14px; */
+  /* height: 100%; */
+/* display: inline */
+/* align-items: center; */
+}
+
+li:hover { color:#ff921b; transition:all .3s ease }
+li > span { position:relative }
+
+/*밑줄넣기 부분*/
+li > span::after {
+  content: '';
+  width: 0%;
+  left: 50%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid #ff921b;
+  transition:all .3s ease;
+}
+li:hover > span::after {
+  content: '';
+  width: 100%;
+  left: 0px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid #ff921b;
+  transition:all .3s ease;
+}
+
+a:link { color:white; text-decoration: none;}
+a:visited{ color:white; text-decoration: none;}
+a:hover { text-decoration: underline;}
+
+.p_on_img {
+    width: 50%; 
+    position: absolute;
+    right: 30px;
+    bottom: 20px; 
+    text-align: right;
+    display: inline;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+    /* margin: 50px;
+    padding: 50px; */
+    opacity: 1;
+  }
+
+
+
+.leftmargin {
+  margin-left: 50px;
+}
+
+.topmargin {
+  margin-top: 140px;
+}
+
+
+.center {
+  text-align:center;
+  margin:0 auto;
+}
+
+/* 이미지 마우스 오버 어둡게 */
+.serviceboxparent{
+  display: flex;
+  /* position:absolute;
+  left:50%;
+  top:50%;
+  margin-left: -300px; */
+  margin: 0 auto;
+  left:34%;
+}
+.servicebox {
+  position:relative;
+  transition: .5s ease; /* 필수는 아님 */
+  width: 100px;
+  flex:0.1;
+ }
+
+.text {
+  position:absolute;
+  visibility:hidden;
+  width: 130px;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 40px;
+  z-index: 999;
+  padding-top: 55px;
+ }
+
+.servicebox:hover .serviceimg{
+  opacity:0.4;
+  transition: .4s ease;
+ }
+
+.servicebox:hover .text {
+   visibility:visible;
+ } 
+
+.servicebox > div {
+  display: inline;
+}
+
+/* 푸터 */
+.footer-07 {
+  background: #1d1d1d; 
+  padding-bottom: 20px;}
+  
+
+  .footer-07 p {
+    color: rgba(233, 233, 233, 0.3); }
+
+  .footer-07 .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px; }
+
+    .footer-07 .footer-heading .logo {
+      color: #fff; }
+
+  .footer-07 .menu {
+    margin-bottom: 30px; }
     
-}
-.service_img{
-    margin:auto;
-}
+  .footer-07 .menu a {
+      color: rgba(255, 255, 255, 0.6);
+      margin: 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+  
 
-#noonnu{
-    background-image: url('archive/3_whatwemade/1noonnu.png');
-    min-width :200px;
-    min-height: 200px;
-    background-repeat: no-repeat;
+
+    .container {
+      margin-top:80px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      }
+     
     
-}
-
-#noonnu:hover{
-    background-image: url('archive/3_whatwemade/1noonnu_on.png')
-}   
-
-#simpyo{
-    background-image: url('archive/3_whatwemade/1right.png');
-    min-width : 200px;
-    min-height: 200px;
-    background-repeat: no-repeat;
-
-}
-
-#simpyo:hover{
-    background-image: url('archive/3_whatwemade/1right_on.png')
+    .container-fluid {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto; }
     
+    .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px; }
+
+
+.justify-content-center {
+ -webkit-box-pack: center !important;
+-ms-flex-pack: center !important;
+justify-content: center !important; }
+
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; 
 }
 
-#kmuf{
-    background-image: url('archive/3_whatwemade/1kmuf.png');
-    min-width : 200px;
-    min-height: 200px;
-    background-repeat: no-repeat;
-    
-}
+.text-center {
+  text-align: center !important; }
 
-#kmuf:hover{
-    background-image: url('archive/3_whatwemade/1kmuf_on.png')
-}
-
-
-.schedule {
-    text-align: center;
-    padding: 60px 90px 200px 90px;
-
-}
-
-.footer {
-    border-top:solid;
-    border-width:40px;
-    border-color:#FDD7AB;
-    padding-top: 80px;
-    
-}
-
-
-.left-footer{
-    text-align: center;
-    border-right:solid;
-    border-color:#f38014;
-    border-width:1px;
-    height: 93px;
-    font-size: 15px;
-    color: #f38104;
-
-}
-    
-
-
-.right-footer{
-    font-size: 14px;
-    color: #f38104;
-    line-height:13px;
-}
-
-
-
-.montserrat { 
-    font-family: 'Montserrat', sans-serif !important; 
-    color: #FBA643;
-    font-weight: bolder;
-    font-size: 25px;
-}
+  .p-0 {
+    padding: 0 !important; }
